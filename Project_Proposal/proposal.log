@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  24 APR 2016 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  24 APR 2016 15:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -425,8 +425,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (./section/problem.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-Missing character: There is no é in font ptmr7t!
-) (./section/dataset.tex [1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 4--115
+
+ []
+
+(./section/dataset.tex [1
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 9.
@@ -452,7 +456,12 @@ Overfull \hbox (3.63351pt too wide) in paragraph at lines 8--13
 aset-[]examples$[]\OT1/ptm/m/n/10.95 ), con-tributers have al-
  []
 
-[2] [3]) (./section/outcome.tex)
+[2]) (./section/outcome.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 7--124
+
+ []
+
+[3]
 \tf@thm=\write4
 \openout4 = `proposal.thm'.
 
@@ -464,12 +473,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `proposal.out' has not changed.
 (rerunfilecheck)             Checksum: CDCABA1D31355C44E68CF91D8B3EA2A2;483.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
  6731 strings out of 493089
  96797 string characters out of 6134841
- 187618 words of memory out of 5000000
+ 186618 words of memory out of 5000000
  10086 multiletter control sequences out of 15000+600000
  24662 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -480,7 +493,7 @@ xlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb>
-Output written on proposal.pdf (5 pages, 65440 bytes).
+Output written on proposal.pdf (5 pages, 65415 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  75 compressed objects within 1 object stream
