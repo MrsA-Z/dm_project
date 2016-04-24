@@ -3,6 +3,13 @@
 
 \subsection{Preprocessing}
 \label{sec:preprocessing}
+%\subsection{Integration of JSON data}
+%\label{sec:integration}
+\textbf{Integration of JSON data}: As the source format of the data is JSON, %Abbreviations ?!
+the dataset cannot simply be added as a RapidMiner repository but has to be transformed into a format RapidMiner can process.\\
+We've considered two options: RapidMiner offers an operator "JSON to data", which takes a collection of JSON documents and transforms it into an example set with one example per document. With further transformation, including transposing columns into rows and transforming the array dimensions into separate columns using regular expressions, the JSON data can be transformed into a tabular structure. Unfortunately, the respective JSON-operator is expecting an array of JSON documents (or separate files for each object) in order to create the correct structure. As the dataset contains a large amount of objects in a one json-object per line style, this implies it would be necessary to further preprocess the provided files: Either splitting them into separate files for each JSON object (per type), or transforming the object type files into an array of all objects.\\
+Thus, a second option would be to directly transform the existing JSON files into a format RapidMiner can work with, using external tools. In their github repository (\url{https://github.com/Yelp/dataset-examples}), contributers have already provided scripts that execute JSON to csv conversion. These scripts can be used as a starting point to transform the dataset into a usefule format for RapidMiner. %How?!
+%Challenge size of dataset? 
 
 
 \subsection{Algorithms}

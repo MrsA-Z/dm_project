@@ -1,6 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: proposal.aux
-The style file: plain.bst
-Database file #1: proposal-ref.bib
-Warning--entry type for "www:yelpdataset" isn't style-file defined
---line 1 of file proposal-ref.bib
-(There was 1 warning)
+I found no \citation commands---while reading file proposal.aux
+I found no \bibdata command---while reading file proposal.aux
+I found no \bibstyle command---while reading file proposal.aux
+(There were 3 error messages)
